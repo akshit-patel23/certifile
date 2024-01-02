@@ -1,0 +1,30 @@
+Date : 2023-11-26 12:16:52
+Directory : c:\wamp64\www\laravelprojects\csvtocert\app\Http\Controllers
+Total : 6 files,  284 codes, 37 comments, 90 blanks, all 411 lines
+
+Languages
++----------+------------+------------+------------+------------+------------+
+| language | files      | code       | comment    | blank      | total      |
++----------+------------+------------+------------+------------+------------+
+| PHP      |          6 |        284 |         37 |         90 |        411 |
++----------+------------+------------+------------+------------+------------+
+
+Directories
++----------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                             | files      | code       | comment    | blank      | total      |
++----------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                |          6 |        284 |         37 |         90 |        411 |
++----------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++----------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| filename                                                                         | language | code       | comment    | blank      | total      |
++----------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| c:\wamp64\www\laravelprojects\csvtocert\app\Http\Controllers\Authcontrol.php     | PHP      |         76 |          0 |         16 |         92 |
+| c:\wamp64\www\laravelprojects\csvtocert\app\Http\Controllers\Controller.php      | PHP      |          9 |          0 |          4 |         13 |
+| c:\wamp64\www\laravelprojects\csvtocert\app\Http\Controllers\Coursecontrol.php   | PHP      |         39 |          0 |         11 |         50 |
+| c:\wamp64\www\laravelprojects\csvtocert\app\Http\Controllers\Templatecontrol.php | PHP      |         38 |          0 |          9 |         47 |
+| c:\wamp64\www\laravelprojects\csvtocert\app\Http\Controllers\Unicontrol.php      | PHP      |         56 |          0 |         12 |         68 |
+| c:\wamp64\www\laravelprojects\csvtocert\app\Http\Controllers\Usercontrol.php     | PHP      |         66 |         37 |         38 |        141 |
+| Total                                                                            |          |        284 |         37 |         90 |        411 |
++----------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
