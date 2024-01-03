@@ -1,5 +1,5 @@
 <?php $addpage = "/university/add" ?>
-@extends('Admin.layout')
+@extends('admin.layout')
 @section('content')
 <div class="formlayout">
     <form action="/university/update/{{$uni->id}}" method="POST">

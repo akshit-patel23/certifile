@@ -1,5 +1,5 @@
 <?php $addpage = "/course/add" ?>
-@extends('Admin.layout')
+@extends('admin.layout')
 @section('content')
 <div class="header">
     <div class="pagename">

@@ -1,5 +1,5 @@
 <?php $addpage = "/template/add" ?>
-@extends('Admin.layout')
+@extends('admin.layout')
 @section('content')
 <div class="formlayout">
     <form action="/template/update/{{$temp->id}}" method="post">
