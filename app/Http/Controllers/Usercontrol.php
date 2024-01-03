@@ -24,7 +24,7 @@ class Usercontrol extends Controller
     public function userform(){
         $uni=Universities::all();
         $temp=Template::all();
-        return view('User.certgen',['uni'=>$uni,'temp'=>$temp]);
+        return view('user.certgen',['uni'=>$uni,'temp'=>$temp]);
     }
 
     public function fetchcourse(Request $request,$id){

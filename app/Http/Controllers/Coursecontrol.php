@@ -14,7 +14,7 @@ use App\Models\Courses;
 class Coursecontrol extends Controller
 {
   public function create(){
-    return view('Admin.course.create');
+    return view('admin.course.create');
   }
   public function store(Request $request){
     $course = new Courses;
@@ -25,7 +25,7 @@ class Coursecontrol extends Controller
   public function read()
   {
     $courses=Courses::paginate(10);
-    return view('Admin.course.read',['courses'=> $courses]);
+    return view('admin.course.read',['courses'=> $courses]);
   }
   public function delete(Courses $courses,$id){
     $courses=Courses::find($id);
@@ -35,7 +35,7 @@ class Coursecontrol extends Controller
 
   public function edit($id){
     $courses = Courses::find($id);
-    return view('Admin.course.update',['courses'=>$courses]);
+    return view('admin.course.update',['courses'=>$courses]);
   }
 
   public function update(Request $request,$id) {

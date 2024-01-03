@@ -14,7 +14,7 @@ class Unicontrol extends Controller
 {
  public function create(){
     $courses = Courses::all();
-    return view('Admin.uni.create',['courses'=>$courses]);
+    return view('admin.uni.create',['courses'=>$courses]);
  }
  public function store(Request $request){
     $uni = new Universities;
@@ -38,7 +38,7 @@ class Unicontrol extends Controller
        ];
    }
 
-   return view('Admin.uni.read', ['uniwithcourse'=>$uniwithcourse]);
+   return view('admin.uni.read', ['uniwithcourse'=>$uniwithcourse]);
 }
 
  public function delete(Universities $uni, $id){
@@ -51,7 +51,7 @@ class Unicontrol extends Controller
    $uni = Universities::find($id);
    $courses=Courses::all();
    $selectedcourseid=json_decode($uni->courses,true);
-   return view('Admin.uni.update',['uni'=>$uni,
+   return view('admin.uni.update',['uni'=>$uni,
                                     'courses'=>$courses,
                                     'selectedcourseid'=>$selectedcourseid
                                  ]);

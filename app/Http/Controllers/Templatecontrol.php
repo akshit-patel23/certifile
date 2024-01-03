@@ -11,7 +11,7 @@ use App\Models\Template;
 
 class Templatecontrol extends Controller{
      public function create(){
-        return view('Admin.template.create');
+        return view('admin.template.create');
      }
      public function store(Request $request){
         $temp= new Template;
@@ -23,11 +23,11 @@ class Templatecontrol extends Controller{
      }
      public function read(){
          $temp=Template::all();
-         return view('Admin.template.read',['temp'=>$temp]);
+         return view('admin.template.read',['temp'=>$temp]);
      }
      public function edit($id){
       $temp=Template::find($id);
-      return view('Admin.template.update',['temp'=>$temp]);
+      return view('admin.template.update',['temp'=>$temp]);
      }
      public function update(Request $request,$id){
       $temp=Template::find($id);
